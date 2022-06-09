@@ -139,7 +139,7 @@ const Oracion = () => {
             31. Rolando Camacho <br />
             32. Victor Soñé Jr. <br />
             33. Martha Fuentes. <br />
-            34. Sobrino de Marelis <br />
+            34. <br />
           </DosColumnasLeft>
         </CajaCumpleanos>
         <Espacio />
@@ -185,6 +185,7 @@ const Oracion = () => {
           1. Reinier Batista <br />
           2. Misael Ortega <br />
           3. Dora Díaz <br />
+          4. Juan Carlos Martínez
         </LetraAlmuerzo>
         <BordeCentro>
           <LetraTexto>

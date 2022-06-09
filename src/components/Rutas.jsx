@@ -19,7 +19,7 @@ import Jovenes from "../paginasMision/Jovenes";
 import Sabatica from "../paginasMision/Sabatica";
 import Preguntas from "../paginasMision/Preguntas";
 // Varios
-import Diaconos from "../paginasDeptos/Diaconos";
+import Diaconos from "../paginasVarios/Diaconos";
 import CitasErroneas from "../paginasVarios/CitasErroneas";
 // Contacto
 import Lideres from "../paginasContacto/Lideres";
