@@ -308,7 +308,7 @@ const Boletin = () => {
           Si así fuera, entonces nunca en la historia de la humanidad ha
           existido ni existirá esa iglesia con la que tu sueñas. Solamente en tu
           mente. Todas han sido y seguirán siendo diferentes en su forma. LA
-          IGUALDAD DEBE ENFOCARSE EN LOS PRINCIPIO DIVINOS. No es el orden
+          IGUALDAD DEBE ENFOCARSE EN LOS PRINCIPIOS DIVINOS. No es el orden
           humano.
           <Espacio />
           Iglesia significa: Reunión, congregación. La iglesia es una familia,
@@ -336,7 +336,10 @@ const Boletin = () => {
           sin apurarnos unos a otros. Aprendiendo de Dios su paciencia, su
           tolerancia, su misericordia. Dios se toma tiempo para edificarte a ti.
           No quieras empujar a otros y sacarlos del ritmo. Dios respeta el
-          tiempo de cada uno.
+          tiempo de cada uno. Seguramente Dios ha tenido mucha paciencia contigo
+          a través de toda tu vida. Tú te has tomado todo tu tiempo, y ahora
+          cuando presumes haber reaccionado, haber aprendido algo, entonces
+          quieres imponerselo a otros a la fuerza, sin la más mínima paciencia.
           <Espacio />
           Tu tarea es exigirte tú a tí mismo, no a los demás.
           <Espacio />
@@ -351,8 +354,9 @@ const Boletin = () => {
           virtudes y defectos. Ninguna merce ser el modelo a seguir.
           <Espacio />
           Es importante mencionar que el desafío de cada generación es
-          completamente diferente al de la anterior. Por eso las distintas
-          generaciones no pueden hacer las cosas de la misma manera.
+          completamente diferente al de la anterior y también de la que la
+          sigue. Por eso las distintas generaciones no pueden hacer las cosas de
+          la misma manera.
           <Espacio />
           La iglesia en su forma es como la ropa: distinta en cada tiempo y
           lugar, pero siempre cumpliendo el mismo propósito: CUBRIR LA
@@ -380,13 +384,17 @@ const Boletin = () => {
           práctica de la fe.
           <Espacio />
           Necesitamos ser capaces de pensar en todos y no solamente en nosotros
-          mismos.
+          mismos. Necesitamos tener en cuenta a los adultos, a los niños, a los
+          que llevan décadas en la iglesia y a los que están comenzando.
+          Necesitamos tener en cuenta a los que están dentro y a los que están
+          fuera. Todos necesitan nuestra atención, comprensión, simpatía,
+          empatía.
           <Espacio />
           Seamos cuidadosos en la manera de hablar, de juzgar, de señalar a los
           demás cuando hacen las cosas diferentes a lo que pensamos que debe ser
           hecho, no sea que al hacerlo, no estemos agradando a Dios y no estemos
           edificando la iglesia, y más bien estemos trabajando para el enemigo
-          de la iglesia.
+          de la iglesia, para alejar a las personas.
           <Espacio />
           Si en algún asunto es necesario que todos o algunos nos pongamos de
           acuerdo en punto grande o pequeño, esto debe resolverse en privado, de
@@ -427,7 +435,7 @@ const Boletin = () => {
           familia, en tu privacidad, que es orar, leer, estudiar, adorar,
           servir, humillarte delante de Dios, cuidar tus palabras, tus
           pensamientos, tus evaluaciones o murmuraciones. Y entender que la
-          iglesia es de Dios y el la cuida mejor que tu.
+          iglesia es de Dios y el la cuida mejor que tú.
           <Espacio />
           Un principio básico de la adoración es que venimos a la iglesia a dar,
           NO A recibir. Decimos esto para aquellos que dicen: NO RECIBI NADA.

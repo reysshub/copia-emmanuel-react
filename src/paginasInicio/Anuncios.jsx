@@ -9,6 +9,7 @@ import {
   ImagenMedia,
   TituloGrande,
   TituloMedio,
+  TituloChico,
   LetraGrande,
   Espacio,
   BordeCentro,
@@ -113,15 +114,22 @@ const Anuncios = () => {
       <TarjetaBlanca>
         <TituloGrande>Seminario Min. Infantil</TituloGrande>
         <LetraGrande>
-          Domingo 26 de Junio <br />
-          Hora: 9:00 am a 12:00pm <br />
+          Sábado 25 de Junio /2022 <br />
+          Hora: 4:00 pm a 7:00pm <br />
         </LetraGrande>
+        <TituloMedio>Lugar</TituloMedio>
+        <TituloChico>
+          Iglesia de Sheeler Oaks en Apopka <br />
+          Dirección: 1822 Sheeler AVe, Apopka, FL 32703 <br />
+          Ministerios Hispanos rentarán un VAN para ir y regresar desde la
+          iglesia Emmanuel Tampa
+        </TituloChico>
         <LetraGrande>
           Auspiciado por los Ministerios Hispanos <br />
           <Espacio />
-          Invitados directores, maestros, aspirantes y padres también. <br />
-          Necesitamos capacitar a la mayor cantidad de personas posibles para el
-          trabajo en favor de nuestros niños.
+          Invitados directores, maestros, aspirantes. <br />
+          Necesitamos capacitar a la mayor cantidad de personas para trabajar en
+          favor de nuestros niños.
           <Espacio />
         </LetraGrande>
         <FotoLogo>
@@ -129,9 +137,7 @@ const Anuncios = () => {
         </FotoLogo>
         <LetraGrande>
           Por favor, déjale saber a Dorys si vas a asistir. <br />
-          Queremos tener algunos recursos disponibles y puede ser útil tener una
-          idea de cuántas personas estarán presentes. Gracias. Dorys Ojeda:
-          (407) 310-5261
+          Gracias. Dorys Ojeda: (407) 310-5261
         </LetraGrande>
         <Espacio />
       </TarjetaBlanca>
@@ -165,7 +171,7 @@ const Anuncios = () => {
         <TituloMedio>Dirige: Aidelyn Brage</TituloMedio>
         <LetraGrande>
           Tel - (602) 435-5476 <br />
-          Registrate ya
+          Regístrate ya
         </LetraGrande>
 
         <ImagenGrande>

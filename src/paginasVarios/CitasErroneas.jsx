@@ -50,7 +50,7 @@ const CitasErroneas = () => {
           Están agrupados del 1-5 de acuerdo al grado de frecuencia con que
           llegan al patrimonio White.
           <Espacio />
-          Doctor: Edgardo Ortíz, Doctor en Ministerio <br />
+          Pastor: Edgardo Ortíz, Doctor en Ministerio <br />
           Centro White, Montemorelos México
           <Espacio />
         </LetraGrande>

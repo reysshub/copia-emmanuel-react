@@ -8,11 +8,15 @@ import {
   Espacio,
   LetraGrande,
   BordeCentro,
+  BlancoSombraCorto,
+  ConexionWeb,
 } from "../components/CardCodigo";
 import { LetraAlmuerzo } from "../paginasInicio/Almuerzo";
 import sucedio from "../img/Eventos/sucedio3.gif";
-import celebracionJuvenil from "../img/Eventos/celebracionjuvenil2.webp";
 
+import videocongresomundial from "../img/Eventos/videocongresomundial.png";
+
+import celebracionJuvenil from "../img/Eventos/celebracionjuvenil2.webp";
 import sabadox from "../img/fotosEventos/sabadojuvenil4/sabado1.jpg";
 import sabado1 from "../img/fotosEventos/sabadojuvenil4/sabado12.jpg";
 import sabado2 from "../img/fotosEventos/sabadojuvenil4/sabado11.jpg";
@@ -89,6 +93,32 @@ const Sucedio = () => {
         <ImagenMedia>
           <img src={sucedio} alt="sucedio movido" />
         </ImagenMedia>
+      </TarjetaBlanca>
+
+      <TarjetaBlanca>
+        <TituloGrande>Congreso Mundial Adventista</TituloGrande>
+        <LetraGrande>
+          Celebrado: Junio 6 - 11 /2022 <br />
+          Vea los videos en youtube
+        </LetraGrande>
+        <ImagenGrande>
+          <img src={videocongresomundial} alt="videcongresomundial" />
+        </ImagenGrande>
+        <LetraGrande>
+          Es importante que usted conozca cómo funciona la iglesia a la que
+          ustede pertenece
+        </LetraGrande>
+        <BlancoSombraCorto>
+          <ConexionWeb href="https://www.youtube.com/watch?v=9zmGm5-oJoc">
+            Video 1
+          </ConexionWeb>
+        </BlancoSombraCorto>
+        <Espacio />
+        <BlancoSombraCorto>
+          <ConexionWeb href="https://gc.adventistas.org/es/">
+            Mas Noticias
+          </ConexionWeb>
+        </BlancoSombraCorto>
       </TarjetaBlanca>
 
       <TarjetaBlanca>

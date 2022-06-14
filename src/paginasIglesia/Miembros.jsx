@@ -37,11 +37,13 @@ const Miembros = () => {
         </ImagenChica>
         <Espacio />
         <BordeCentro>
-          Acércate a:
-          <Espacio />
-          Secretaria de Iglesia: Elsy Jorge <br />
-          Pastor: Reynaldo Ojeda Jr. <br />
-          Infórmate - tab: Contacto / Líderes <br />
+          <LetraGrande>
+            Acércate a:
+            <Espacio />
+            Secretaria de Iglesia: Elsy Jorge <br />
+            Pastor: Reynaldo Ojeda Jr. <br />
+            Infórmate - Tab: Contacto / Líderes <br />
+          </LetraGrande>
           <Espacio />
           <Link to="/lideres">Página Líderes</Link>
           <Espacio />
@@ -93,6 +95,15 @@ const Miembros = () => {
             8. */}
           </DosColumnas>
         </CajaCumpleanos>
+        <Espacio />
+        <TituloMedio>Traslados para otra Iglesia</TituloMedio>
+        <LetraGrande>Sábado 11 de Junio / 2022</LetraGrande>
+        <DosColumnas>
+          <LetraGrande>
+            1. Noemí Nestherdali <br />
+            (Desde Tampa para Clearwater) <br />
+          </LetraGrande>
+        </DosColumnas>
         <Espacio />
       </TarjetaBlanca>
 
