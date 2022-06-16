@@ -133,11 +133,11 @@ const Navbar = () => {
               </SubLink>
             </SubMenuLi>
 
-            <SubMenuLi>
+            {/* <SubMenuLi>
               <SubLink>
                 <Link to="/registrate">Registrate</Link>
               </SubLink>
-            </SubMenuLi>
+            </SubMenuLi> */}
 
             <SubMenuLi>
               <SubLink>

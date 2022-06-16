@@ -7,7 +7,6 @@ import {
   TituloGrande,
   TituloChico,
   LetraGrande,
-  BlancoSombra,
   Espacio,
   ConexionWeb,
   CajaBotones,
@@ -47,9 +46,7 @@ const Sitios = () => {
         </ImagenGrande>
         <Espacio />
         <LetraGrande>Escucha los Sermones</LetraGrande>
-        <BlancoSombra>
-          <LetraGrande>Administra la Página: El Pastor</LetraGrande>
-        </BlancoSombra>
+        <LetraGrande>Administra la Página: El Pastor</LetraGrande>
         <Espacio />
       </TarjetaBlanca>
 
@@ -62,9 +59,7 @@ const Sitios = () => {
           <img src={emmanueltampaja} alt="emmanueltampaja" />
         </ImagenGrande>
         <Espacio />
-        <BlancoSombra>
-          <LetraGrande>Administra la Página: Aidelyn Brage</LetraGrande>
-        </BlancoSombra>
+        <LetraGrande>Administra la Página: Aidelyn Brage</LetraGrande>
         <Espacio />
       </TarjetaBlanca>
 
@@ -87,12 +82,10 @@ const Sitios = () => {
           <img src={logoradio} alt="logoradio" />
         </ImagenGrande>
         <Espacio />
-        <BlancoSombra>
-          <LetraGrande>
-            Director: Jaime Valdivia tel - (813) 882-9991 <br />
-            "Varios años al aire" Gracias Jaime
-          </LetraGrande>
-        </BlancoSombra>
+        <LetraGrande>
+          Director: Jaime Valdivia tel - (813) 882-9991 <br />
+          "Varios años al aire" Gracias Jaime
+        </LetraGrande>
         <Espacio />
       </TarjetaBlanca>
 
@@ -125,9 +118,7 @@ const Sitios = () => {
           <img src={ConferenciaWebSite} alt="Conferencia Web Site" />
         </ImagenGrande>
         <Espacio />
-        <BlancoSombra>
-          <LetraGrande>Director: Pastor Arnaldo Cruz</LetraGrande>
-        </BlancoSombra>
+        <LetraGrande>Director: Pastor Arnaldo Cruz</LetraGrande>
         <Espacio />
       </TarjetaBlanca>
 

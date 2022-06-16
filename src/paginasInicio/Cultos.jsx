@@ -207,7 +207,7 @@ const Cultos = () => {
           <img src={barcode} alt="barcode" />
         </ImagenMedia>
         <Espacio />
-        <LetraChica>emmanuelspanishsite.com</LetraChica>
+        <LetraGrande>emmanuelspanishsite.com</LetraGrande>
         <Espacio />
       </TarjetaBlanca>
 

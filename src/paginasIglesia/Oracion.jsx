@@ -401,7 +401,7 @@ const Oracion = () => {
             15. Teresa García <br />
             16. Carmen Vázquez <br />
             17. Elio Pequero <br />
-            18. Martha Fuentes <br />
+            18. <br />
           </DosColumnasLeft>
         </CajaCumpleanos>
         <Espacio />

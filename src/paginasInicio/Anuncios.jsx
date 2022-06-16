@@ -30,7 +30,6 @@ import logominfantil from "../img/logos/logominfantil.png";
 import logoVBS from "../img/logos/logoVBS.png";
 import graduada from "../img/Eventos/graduado.jpg";
 import graduado from "../img/Eventos/graduada.jpg";
-import poesia from "../img/Eventos/poesiafindecurso.jpg";
 
 const Anuncios = () => {
   return (
@@ -60,9 +59,6 @@ const Anuncios = () => {
           Que disfruten de unas felices vacaciones y nunca dejen de aprender.
           Les amamos. El Pastor
         </LetraGrande>
-        <ImagenGrande>
-          <img src={poesia} alt="poesia" />
-        </ImagenGrande>
         <Espacio />
       </TarjetaBlanca>
 

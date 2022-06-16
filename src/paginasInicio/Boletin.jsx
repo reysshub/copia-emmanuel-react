@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import {
   TituloGrande,
   TituloMedio,
@@ -15,7 +15,6 @@ import {
   Espacio,
   LetraGrande,
   TituloLeft,
-  BordeCentro,
 } from "../components/CardCodigo";
 import { LetraAlmuerzo } from "../paginasInicio/Almuerzo";
 import cruz from "../img/cruz.webp";
@@ -36,14 +35,15 @@ const Boletin = () => {
         <TituloGrande>Culto de Adoración</TituloGrande>
         <Espacio />
         <TituloChico>
-          <ColorRed>Sábado 11 de Junio 2022</ColorRed>
+          <ColorRed>Sábado 18 de Junio 2022</ColorRed>
         </TituloChico>
         <Espacio />
         <LetraTexto>
-          "Así dijo Jehová: Paraos en los caminos, y mirad, y preguntad por las
-          sendas antiguas, cuál sea el buen camino, y andad por él, y hallaréis
-          descanso para vuestra alma. Mas dijeron: No andaremos". <br />{" "}
-          Jeremías 6:16.
+          "SI Jehová no edificare la casa, En vano trabajan los que la edifican:
+          Si Jehová no guardare la ciudad, En vano vela la guarda". Salmos 127:1{" "}
+          <br />
+          "Porque esperaba ciudad con fundamentos, el artífice y hacedor de la
+          cual es Dios." Hebreos 11:10.
         </LetraTexto>
         <Espacio />
         <ImagenSombra>
@@ -55,34 +55,34 @@ const Boletin = () => {
         <LetraBoletin>
           --- Preparándonos para adorar al Creador <br />
           --- Grupo de Alabanzas: (10:45 AM) <br />
-          --- Entrada Plataforma: (11:00 AM) <br />
+          {/* --- Entrada Plataforma: (11:00 AM) <br /> */}
           --- Doxología: Congregación adora al Creador <br />
-          1 - Invocación: Alexander Beltré (Anciano) <br />
+          1 - Invocación: <br />
         </LetraBoletin>
         <Espacio />
         <TituloLeft>Segundo Segmento</TituloLeft>
         <Espacio />
         <LetraBoletin>
           --- Adorando a través de la confraternidad <br />
-          2 - Bienvenida: Iris Camacho <br />
-          --- Adorando a través de la alabanza <br />
-          3 - Anuncia himno: Iris Camacho
+          2 - Bienvenida: Norma Manchón <br />
+          {/* --- Adorando a través de la alabanza <br /> */}
+          {/* 3 - Anuncia himno: Iris Camacho */}
           <br />
-          --- Himno: # 385 "Los que aman al Señor" <br />
+          {/* --- Himno: # 385 "Los que aman al Señor" <br /> */}
         </LetraBoletin>
-        <Espacio />
+        {/* <Espacio />
         <BordeCentro>
           <ConexionWeb href="http://www.iglesiadeolivos.com.ar/-/doc/himnario/477.html">
             Los que aman al Señor! (477)
           </ConexionWeb>
-        </BordeCentro>
-        <Espacio />
+        </BordeCentro> */}
+        {/* <Espacio /> */}
         <LetraBoletin>
           --- Adorando a través de la Palabra <br />
-          --- Texto bíblico: Jeremías 6:16 <br />
-          4 - Lectura bíblica: Kelin Leyva <br />
+          --- Texto bíblico: Salmos 127:1, Heb. 11:10 <br />
+          4 - Lectura bíblica: Dionis Leyva <br />
           --- Postrados adoramos al Creador <br />
-          5 - Conduce Adoración: Rolando Camacho <br />
+          5 - Conduce Adoración: Bárbara Pérez <br />
           --- Respuesta: Congregación y piano <br />
         </LetraBoletin>
         <Espacio />
@@ -91,19 +91,19 @@ const Boletin = () => {
         <LetraBoletin>
           --- Adorando a través de las Ofrendas <br />
           --- Reconocemos la soberanía de Dios <br />
-          6 - Dirige ofrendas: Marilyn Powell <br />
+          6 - Dirige ofrendas: Eduardito Castillo <br />
           --- Congregación canta alabanzas <br />
           --- Diaconado recibe las ofrendas <br />
           --- Bendición sobre diezmos y ofrendas <br />
-          7 - Oración: Marilyn Powell <br />
+          7 - Oración: Eduardito Castillo <br />
         </LetraBoletin>
-        <Espacio />
+        {/* <Espacio />
         <BordeCentro>
           <Link to="/ofrendas">Explicación Ofrendas</Link>
         </BordeCentro>
-        <Espacio />
+        <Espacio /> */}
         <LetraBoletin>
-          8 - Aliah y Kelin comunican - anuncios <br />
+          {/* 8 - Aliah y Kelin comunican - anuncios <br /> */}
         </LetraBoletin>
         {/* <Espacio />
         <TituloLeft>Segmento Pastoral</TituloLeft>
@@ -119,25 +119,28 @@ const Boletin = () => {
         <TituloLeft>Cuarto Segmento</TituloLeft>
         <Espacio />
         <LetraBoletin>
-          --- Adoración a través de la Palabra <br />
+          {/* --- Adoración a través de la Palabra <br />
           9 - Selección musical: Florencio Campos <br />
           --- Título: Alabanza a Dios <br />
           10 - Sermón: Alexander Beltré <br />
           --- Sermón Título: "Regresamos a la Senda Antigua" <br />
           --- Entregando nuestras vidas a Dios <br />
-          11 - Himno: # 173 "Vendrá el Señor" <br />
+          11 - Himno: # 173 "Vendrá el Señor" <br /> */}
         </LetraBoletin>
         <Espacio />
-        <BordeCentro>
+        {/* <BordeCentro>
           <ConexionWeb href="http://www.iglesiadeolivos.com.ar/-/doc/himnario/165.html">
             Vendrá el Señor (165)
           </ConexionWeb>
-        </BordeCentro>
+        </BordeCentro> */}
         <Espacio />
         <LetraBoletin>
-          12 - Oración: Alexander Beltré <br /> <br />
+          --- Dinámica: Aidelyn Brage <br />
+          --- Programa Especial para los Padres <br />
+          --- Título: Construyendo para la Eternidad <br />
+          {/* 12 - Oración: Alexander Beltré <br /> <br /> */}
         </LetraBoletin>
-
+        <Espacio />
         <LetraGrande>Bendición de Dios para su Iglesia</LetraGrande>
         <LetraTexto>
           "Jehová te bendiga, y te guarde; Jehová haga resplandecer su rostro
