@@ -6,6 +6,7 @@ import {
   ImagenSombra,
   ImagenMedia,
   ImagenLogo,
+  ImagenLogo2,
   TituloGrande,
   LetraGrande,
   LetraChica,
@@ -86,7 +87,7 @@ const Cultos = () => {
         <Espacio />
         <BlancoSombra>
           <ImagenLogo>
-            <img src={logoApia} alt="logoApia" />
+            <img src={logoApia} className="App-logo" alt="logoApia" />
           </ImagenLogo>
           <LetraChica>
             Ordena por teléfono: APIA Español <br />
@@ -99,7 +100,11 @@ const Cultos = () => {
         <TituloMedio>Nuestras Clases</TituloMedio>
         <BlancoSombra>
           <ImagenLogo>
-            <img src={logoesabatica} alt="logo E Sabatica" />
+            <img
+              src={logoesabatica}
+              className="App-logo"
+              alt="logo E Sabatica"
+            />
           </ImagenLogo>
           <LetraChica>
             Clase general para adultos <br />
@@ -110,7 +115,7 @@ const Cultos = () => {
 
         <BlancoSombra>
           <ImagenLogo>
-            <img src={logomjuvenil} alt="logo M Juvenil" />
+            <img src={logomjuvenil} className="App-logo" alt="logo M Juvenil" />
           </ImagenLogo>
           <LetraChica>
             Clase especial para jóvenes <br />
@@ -122,7 +127,11 @@ const Cultos = () => {
 
         <BlancoSombra>
           <ImagenLogo>
-            <img src={logominfantil} alt="logo M Infantil" />
+            <img
+              src={logominfantil}
+              className="App-logo"
+              alt="logo M Infantil"
+            />
           </ImagenLogo>
           <LetraChica>
             Clases especiales para Menores <br />
@@ -182,9 +191,9 @@ const Cultos = () => {
         </ImagenSombra>
         <Espacio />
         <BlancoSombra>
-          <ImagenLogo>
+          <ImagenLogo2>
             <img src={zoomlogo} alt="zoomlogo" />
-          </ImagenLogo>
+          </ImagenLogo2>
           <LetraChica>
             Entra a Zoom: únete / join <br />
             Código: 278-213-7957 <br />

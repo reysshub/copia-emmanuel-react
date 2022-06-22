@@ -16,6 +16,8 @@ import {
 } from "../components/CardCodigo";
 import { TarjetaColor, TituloBlanco } from "../paginasContacto/Profesiones";
 import heiden from "../img/familia/heiden2.png";
+import { LogoRotando } from "../paginasContacto/Lideres";
+import logoiglesia from "../img/logos/logo.png";
 
 const Educate = () => {
   return (
@@ -26,6 +28,11 @@ const Educate = () => {
       <TituloChico>
         <ColorWhite>Recursos Educativos</ColorWhite>
       </TituloChico>
+
+      <Espacio />
+      <LogoRotando>
+        <img src={logoiglesia} className="App-logo" alt="logo iglesia" />
+      </LogoRotando>
 
       <TarjetaBlanca>
         <TituloGrande>Lecciones "La Fe de Jesús</TituloGrande>

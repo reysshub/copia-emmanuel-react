@@ -11,13 +11,16 @@ import {
   Espacio,
   BordeCentro,
   FotoLogo,
+  Linea,
+  LetraChica,
 } from "../components/CardCodigo";
 import felizcumple from "../img/felizcumple.jpg";
 import felicidades from "../img/felicidades.png";
 import iglesia1 from "../img/iglesias/iglesia9.jpg";
 import iglesia2 from "../img/iglesias/iglesia12.jpg";
-import iglesia3 from "../img/iglesias/iglesia4.jpg";
 import elsyjorge from "../img/familia/elsyjorge.png";
+import { LogoRotando } from "../paginasContacto/Lideres";
+import logoiglesia from "../img/logos/logo.png";
 
 const Miembros = () => {
   return (
@@ -35,6 +38,7 @@ const Miembros = () => {
         <ImagenChica>
           <img src={iglesia2} alt="imagen iglesia" />
         </ImagenChica>
+
         <Espacio />
         <BordeCentro>
           <LetraGrande>
@@ -52,37 +56,43 @@ const Miembros = () => {
       </TarjetaBlanca>
 
       <TarjetaBlanca>
-        <TituloGrande>Proceso de Traslado</TituloGrande>
-        <ImagenChica>
+        <TituloGrande>Membresía Proceso</TituloGrande>
+        {/* <ImagenChica>
           <img src={iglesia3} alt="imagen iglesia" />
-        </ImagenChica>
+        </ImagenChica> */}
         <Espacio />
-        <TituloMedio>Nuestros Hermanos</TituloMedio>
+        <LogoRotando>
+          <img src={logoiglesia} className="App-logo" alt="logo iglesia" />
+        </LogoRotando>
+        <Espacio />
+        <TituloMedio>Altas por Traslado</TituloMedio>
         <LetraGrande>
-          Esperando Respuesta de las Iglesias <br />
-          Para traslado
+          Esperando respuesta de las iglesias <br />
+          Para recibirlos por traslado
         </LetraGrande>
-        <Espacio />
         <CajaCumpleanos>
           <DosColumnas>
             1. José Daniel Valdivia <br />
             2. Manuel García <br />
-            3. Alberto Contreras <br />
-            4. Cesarina Contreras <br />
+            {/* 3. Alberto Contreras <br />
+            4. Cesarina Contreras <br /> */}
           </DosColumnas>
           <DosColumnas>
-            5. Dania Sepúlveda <br />
-            6. Marlene Silvente <br />
-            7. Domingo Silvente <br />
-            8. Esther Blanco
+            3. Dania Sepúlveda <br />
+            4.
+            {/* 6. Marlene Silvente <br />
+            7. Domingo Silvente <br /> */}
           </DosColumnas>
         </CajaCumpleanos>
+        <LetraChica>
+          Nota: Es importante respetar los procedimientos de traslado para
+          evitar que los nombres estén duplicados en el sistema.
+        </LetraChica>
         <Espacio />
-        <TituloMedio>Recibiendo Nuevos Hermanos</TituloMedio>
-        <LetraGrande>
-          Profesión de fe <br />
-          Sábado 25 de Junio / 2022
-        </LetraGrande>
+        <Linea />
+        <Espacio />
+        <TituloMedio>Altas por Profesión de Fe</TituloMedio>
+        <LetraGrande>Sábado 25 de Junio / 2022</LetraGrande>
         <CajaCumpleanos>
           <DosColumnas>
             1. Fernando Avila <br />
@@ -95,9 +105,18 @@ const Miembros = () => {
             8. */}
           </DosColumnas>
         </CajaCumpleanos>
+        <LetraChica>
+          Nota: Son recibidos en base a un bautismo anterior en otro lugar, pero
+          por alguna razón no se puede conseguir el traslado. Ejemplo: 1) Vienen
+          de otro país, y el sistema de Norte América no está conectado. 2) Han
+          perdido información de su registro de miembro en su iglesia anterior,
+          pero se han mantenido fieles a su profesión de fe en Cristo Jesús.
+        </LetraChica>
         <Espacio />
-        <TituloMedio>Traslados para otra Iglesia</TituloMedio>
-        <LetraGrande>Sábado 11 de Junio / 2022</LetraGrande>
+        <Linea />
+        <Espacio />
+        <TituloMedio>Bajas por Traslado</TituloMedio>
+        <LetraGrande>Sábado 25 de Junio / 2022</LetraGrande>
         <DosColumnas>
           <LetraGrande>
             1. Noemí Nestherdali <br />

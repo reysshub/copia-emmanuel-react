@@ -1,5 +1,3 @@
-import React from "react";
-// import styled from "styled-components";
 import {
   TarjetaBlanca,
   TituloGrande,
@@ -14,6 +12,7 @@ import {
   MarginLeft,
   Linea,
 } from "../components/CardCodigo";
+import { LogoRotando } from "../paginasContacto/Lideres";
 import { LetraAlmuerzo } from "../paginasInicio/Almuerzo";
 import logoiglesia from "../img/logos/logo.png";
 
@@ -27,11 +26,12 @@ const Preguntas = () => {
         <ColorWhite>Contestando Inquietudes</ColorWhite>
       </TituloChico>
 
+      <Espacio />
+      <LogoRotando>
+        <img src={logoiglesia} className="App-logo" alt="logo iglesia" />
+      </LogoRotando>
+
       <TarjetaBlanca>
-        <Espacio />
-        <FotoLogo>
-          <img src={logoiglesia} alt="logo iglesia" />
-        </FotoLogo>
         <Espacio />
         <TituloMedio>Dónde encontrar Respuestas</TituloMedio>
         <Espacio />
@@ -40,7 +40,7 @@ const Preguntas = () => {
           2. Escritos de Elena G de White . . . 'Consejos'. <br />
           3. Manual de la Iglesia Adventista . . . 'Acuerdos'. <br />
           4. Teólogos, investigadores serios . . . 'Opiniones'. <br />
-          5. Experiencia personal . . . 'Mi ministerio'.
+          5. Mi ministerio pastoral . . 'Experiencia personal'.
         </LetraAlmuerzo>
         <Espacio />
         <LetraGrande>El Pastor</LetraGrande>
@@ -56,8 +56,8 @@ const Preguntas = () => {
         <Espacio />
         <LetraGrande>RESPUESTAS</LetraGrande>
         <LetraAlmuerzo>
-          1. El que más pregunta, más aprende. <br />
-          2. Las preguntas muestran interés en aprender. <br />
+          1. Las preguntas muestran interés en aprender. <br />
+          2. El que más pregunta, más aprende. <br />
           3. Las preguntas son una señal de inteligencia. <br />
           4. También hay preguntas mal intencionadas.
           <Espacio />
@@ -117,7 +117,7 @@ const Preguntas = () => {
           en investigaciones serias, intenciones sanas, y no se deje desviar del
           buen camino. No se conforme con escuchar opiniones y comentarios.
           <Espacio />
-          Conviértase ustede mismo en un lector, un investigador serio. La
+          Conviértase usted mismo en un lector, un investigador serio. La
           iglesia necesita personas que sepan leer, interpretar correctamente,
           sostener la verdad con transparencia, sabiduría de lo alto,
           equilibrio. Lejos de la ignorancia, el fanatismo y otras cosas más.
@@ -178,7 +178,7 @@ const Preguntas = () => {
         <TituloMedio>Puedes preguntar</TituloMedio>
         <Espacio />
         <FotoLogo>
-          <img src={logoiglesia} alt="logo iglesia" />
+          <img src={logoiglesia} className="App-logo" alt="logo iglesia" />
         </FotoLogo>
         <LetraGrande>El Pastor</LetraGrande>
         <Espacio />

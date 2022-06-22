@@ -12,5 +12,39 @@ body{
   height: auto;
 }
 
+.claveBox{
+  /* border:1px dashed blue; */
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.clave{
+  border-radius: 50%;
+  border:1px solid yellow;
+  height: 90px;
+}
 
 
+/* Codigo del logo dando vueltas */
+
+.App-logo {
+  /* height: 12vmin; */
+  width: 80px;
+  pointer-events: none;
+  border-radius: 50%;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

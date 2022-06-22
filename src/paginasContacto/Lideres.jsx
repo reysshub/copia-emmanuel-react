@@ -35,6 +35,7 @@ import aliah from "../img/familia/aliahbeltre.png";
 import kelin from "../img/familia/kelinleyva.png";
 import rosemorales from "../img/familia/rosemorales.png";
 import andres from "../img/familia/andresflores.png";
+import logoiglesia from "../img/logos/logo.png";
 
 const Lideres = () => {
   return (
@@ -45,6 +46,11 @@ const Lideres = () => {
       <TituloChico>
         <ColorWhite>Comunícate con los líderes</ColorWhite>
       </TituloChico>
+
+      <Espacio />
+      <LogoRotando>
+        <img src={logoiglesia} className="App-logo" alt="logo iglesia" />
+      </LogoRotando>
 
       <TarjetaBlanca>
         <LetraAlmuerzo>
@@ -512,6 +518,13 @@ export const DivLider = styled.div`
   /* border:1px dashed blue; */
   padding-right: 8px;
   padding-left: 5px;
+`;
+
+export const LogoRotando = styled.div`
+  text-align: center;
+  img {
+    border: 1px solid lightblue;
+  }
 `;
 
 export default Lideres;

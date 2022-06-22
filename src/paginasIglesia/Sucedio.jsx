@@ -13,7 +13,7 @@ import {
 } from "../components/CardCodigo";
 import { LetraAlmuerzo } from "../paginasInicio/Almuerzo";
 import sucedio from "../img/Eventos/sucedio3.gif";
-
+import { FotoDoble } from "../paginasInicio/Anuncios";
 import videocongresomundial from "../img/Eventos/videocongresomundial.png";
 
 import celebracionJuvenil from "../img/Eventos/celebracionjuvenil2.webp";
@@ -86,6 +86,11 @@ import saxoDioni from "../img/fotosEventos/reyFotos/NuevaC.png";
 import kelinPiano from "../img/fotosEventos/reyFotos/kelinpiano.png";
 import diaconisas from "../img/fotosEventos/reyFotos/Diaconisas.jpg";
 
+import graduada from "../img/Eventos/graduado.jpg";
+import graduado from "../img/Eventos/graduada.jpg";
+import diadelpadre from "../img/Eventos/padres1.jpg";
+import diapadre from "../img/Eventos/padres2.jpg";
+
 const Sucedio = () => {
   return (
     <>
@@ -93,6 +98,47 @@ const Sucedio = () => {
         <ImagenMedia>
           <img src={sucedio} alt="sucedio movido" />
         </ImagenMedia>
+      </TarjetaBlanca>
+
+      <TarjetaBlanca>
+        <TituloGrande>Mes de Junio 2022</TituloGrande>
+        <LetraGrande>
+          Todos celebramos a Papá <br />
+          Fue una linda experiencia
+        </LetraGrande>
+        <ImagenGrande>
+          <img src={diadelpadre} alt="imagen padre" />
+        </ImagenGrande>
+        <Espacio />
+      </TarjetaBlanca>
+
+      <TarjetaBlanca>
+        <TituloGrande>Agasajando a los Padres</TituloGrande>
+        <LetraGrande>
+          Gran sábado de celebración <br />
+          Fue el Sábado 18 de Junio
+        </LetraGrande>
+        <ImagenGrande>
+          <img src={diapadre} alt="imagen celebracion" />
+        </ImagenGrande>
+        <Espacio />
+      </TarjetaBlanca>
+
+      <TarjetaBlanca>
+        <TituloGrande>Fin de Curso Escolar</TituloGrande>
+        <LetraGrande>Celebrándolo en grande</LetraGrande>
+        <TituloMedio>Felicidades a todos</TituloMedio>
+        <Espacio />
+        <FotoDoble>
+          <img src={graduado} alt="graduado" />
+          <img src={graduada} alt="graduada" />
+        </FotoDoble>
+        <LetraGrande>
+          Nos gozamos con nuestros estudiantes por un final de curso exitoso.
+          Que disfruten de unas felices vacaciones y nunca dejen de aprender.
+          Les amamos. El Pastor
+        </LetraGrande>
+        <Espacio />
       </TarjetaBlanca>
 
       <TarjetaBlanca>

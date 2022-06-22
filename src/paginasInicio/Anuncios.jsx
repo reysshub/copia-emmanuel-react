@@ -1,4 +1,3 @@
-import React from "react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
 
@@ -19,8 +18,6 @@ import {
 } from "../components/CardCodigo";
 import anuncios from "../img/anuncios.png";
 import profesionales from "../img/Eventos/profesionales3.webp";
-import diadelpadre from "../img/Eventos/diadelpadre.webp";
-import imagenAlmuerzo from "../img/Eventos/almuerzopadres.jpg";
 import imagenDeportes from "../img/Eventos/imagenDeportes.jpg";
 import eventoJuvenil from "../img/Eventos/celebracionjuvenil.webp";
 import camporeeUnion from "../img/Eventos/camporeeUnion.png";
@@ -28,8 +25,6 @@ import aliahbeltre from "../img/familia/aliahbeltre.png";
 import kelinleyva from "../img/familia/kelinleyva.png";
 import logominfantil from "../img/logos/logominfantil.png";
 import logoVBS from "../img/logos/logoVBS.png";
-import graduada from "../img/Eventos/graduado.jpg";
-import graduado from "../img/Eventos/graduada.jpg";
 
 const Anuncios = () => {
   return (
@@ -43,23 +38,6 @@ const Anuncios = () => {
         <ImagenMedia>
           <LetraGrande>Infórmate y Participa</LetraGrande>
         </ImagenMedia>
-      </TarjetaBlanca>
-
-      <TarjetaBlanca>
-        <TituloGrande>Fin de Curso Escolar</TituloGrande>
-        <LetraGrande>Celebrándolo en grande</LetraGrande>
-        <TituloMedio>Felicidades a todos</TituloMedio>
-        <Espacio />
-        <FotoDoble>
-          <img src={graduado} alt="graduado" />
-          <img src={graduada} alt="graduada" />
-        </FotoDoble>
-        <LetraGrande>
-          Nos gozamos con nuestros estudiantes por un final de curso exitoso.
-          Que disfruten de unas felices vacaciones y nunca dejen de aprender.
-          Les amamos. El Pastor
-        </LetraGrande>
-        <Espacio />
       </TarjetaBlanca>
 
       <TarjetaBlanca>
@@ -78,32 +56,12 @@ const Anuncios = () => {
           <br />
         </LetraGrande>
         <Espacio />
-        <TituloMedio>Visita el tab - Contacto / Profesiones</TituloMedio>
+        <TituloMedio>Visita el Tab - Contacto / Profesiones</TituloMedio>
         <Espacio />
         <BordeCentro>
           Ir a la página Profesiones <br />
           <Link to="/profesiones">Página Profesiones</Link>
         </BordeCentro>
-        <Espacio />
-      </TarjetaBlanca>
-
-      <TarjetaBlanca>
-        <TituloGrande>Mes de los Padres</TituloGrande>
-        <LetraGrande>Todo el mes de Junio</LetraGrande>
-        <LetraGrande>Celebrándolo en grande</LetraGrande>
-        <ImagenGrande>
-          <img src={diadelpadre} alt="imagen padre" />
-        </ImagenGrande>
-        <Espacio />
-      </TarjetaBlanca>
-
-      <TarjetaBlanca>
-        <TituloGrande>Almuerzo dedicado a los Padres</TituloGrande>
-        <LetraGrande>Auspiciado por la Escuela Sabática</LetraGrande>
-        <LetraGrande>Sábado 18 de Junio</LetraGrande>
-        <ImagenGrande>
-          <img src={imagenAlmuerzo} alt="imagen comida" />
-        </ImagenGrande>
         <Espacio />
       </TarjetaBlanca>
 

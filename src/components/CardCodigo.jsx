@@ -157,6 +157,18 @@ export const ImagenLogo = styled.div`
     }
   }
 `;
+export const ImagenLogo2 = styled.div`
+  padding: 2px;
+  img {
+    width: 58px;
+  }
+
+  @media screen and (min-width: 750px) {
+    img {
+      width: 90px;
+    }
+  }
+`;
 export const FotoLogo = styled.div`
   text-align: center;
 

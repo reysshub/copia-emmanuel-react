@@ -27,11 +27,12 @@ const Sabatica = () => {
         <ColorWhite>Liderazgo y Recursos</ColorWhite>
       </TituloChico>
 
+      <Espacio />
+      <FotoLogo>
+        <img src={logoesabatica} className="App-logo" alt="logo E Sabatica" />
+      </FotoLogo>
+
       <TarjetaBlanca>
-        <Espacio />
-        <FotoLogo>
-          <img src={logoesabatica} alt="logo E Sabatica" />
-        </FotoLogo>
         <Espacio />
         <LetraGrande>
           Libro de Texo: LA BIBLIA <br />
@@ -297,7 +298,7 @@ const Sabatica = () => {
         <Espacio />
         <Espacio />
         <FotoLogo>
-          <img src={logoesabatica} alt="logo E Sabatica" />
+          <img src={logoesabatica} className="App-logo" alt="logo E Sabatica" />
         </FotoLogo>
         <TituloMedio>Gracias Directores</TituloMedio>
         <Espacio />

@@ -8,8 +8,9 @@ import {
   LetraGrande,
 } from "../components/CardCodigo";
 import { TarjetaColor, TituloBlanco } from "../paginasContacto/Profesiones";
-// import { LetraTexto } from "../paginasInicio/Boletin";
+import { LogoRotando } from "../paginasContacto/Lideres";
 import { LetraAlmuerzo } from "../paginasInicio/Almuerzo";
+import logoiglesia from "../img/logos/logo.png";
 
 const CitasErroneas = () => {
   return (
@@ -23,8 +24,14 @@ const CitasErroneas = () => {
         <ColorWhite>Recursos para aprender</ColorWhite>
       </TituloChico>
 
+      <Espacio />
+      <LogoRotando>
+        <img src={logoiglesia} className="App-logo" alt="logo iglesia" />
+      </LogoRotando>
+
       <TarjetaBlanca>
         <TituloGrande>Citas Erroneas</TituloGrande>
+        <Espacio />
         <LetraGrande>
           Este documento ha sido preparado por <br />
           Pastor Edgardo Ortiz, Doctor en Ministerio <br />

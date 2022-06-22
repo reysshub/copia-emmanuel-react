@@ -298,7 +298,7 @@ const Profesiones = () => {
           </LetraGrande>
         </BordeCentro>
         <Espacio />
-        <TituloMedio>"Por amor a Jesós, siempre haré lo mejor"</TituloMedio>
+        <TituloMedio>"Por amor a Jesús, siempre haré lo mejor"</TituloMedio>
         <Espacio />
       </TarjetaBlanca>
 
@@ -319,7 +319,9 @@ const Profesiones = () => {
           (407) 800-7205 <br />
         </LetraGrande>
         <TituloMedio>AI & Sam's Carpentry LLC</TituloMedio>
+        <Espacio />
         <TituloMedio>Servicios</TituloMedio>
+        <Espacio />
         <CajaCumpleanos>
           <DosColumnasLeft>
             Trim de Interiores <br />
@@ -383,8 +385,8 @@ export const TituloBlanco = styled.h2`
 
 export const ImagenSmall = styled.div`
   img {
-    width: 100px;
-    border-radius: 10px;
+    width: 80px;
+    border-radius: 20px;
   }
 `;
 export const DosFotos = styled.div`

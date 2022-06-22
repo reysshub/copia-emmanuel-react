@@ -51,6 +51,17 @@ const Jovenes = () => {
         <ColorWhite>Liderazgo y Recursos</ColorWhite>
       </TituloChico>
 
+      <Espacio />
+      <Espacio />
+      <FotoLogox>
+        <img
+          src={logomjuvenil}
+          className="App-logo"
+          alt="logo ministerio juveniol"
+        />
+      </FotoLogox>
+      <Espacio />
+
       <TarjetaBlanca>
         <TituloMedio>Nuestros Directores</TituloMedio>
         <Espacio />
@@ -146,17 +157,23 @@ const Jovenes = () => {
       </TarjetaBlanca>
 
       <TarjetaBlanca>
+        <Espacio />
         <ContenedorJovenes>
           <FotoLogox>
             <img src={logomjuvenil} alt="logo ministerio juveniol" />
           </FotoLogox>
           <FotoLogox>
-            <img src={logomjuvenil} alt="logo ministerio juveniol" />
+            <img
+              src={logomjuvenil}
+              className="App-logo"
+              alt="logo ministerio juveniol"
+            />
           </FotoLogox>
           <FotoLogox>
             <img src={logomjuvenil} alt="logo ministerio juveniol" />
           </FotoLogox>
         </ContenedorJovenes>
+        <Espacio />
         <Espacio />
         <BordeCentro>
           <ConexionWeb href="https://adventsourcecms.blob.core.windows.net/media/e11c30af-7d1a-4030-9e80-abaa010a88b6/QuickStartGuide_YouthMinistries.pdf?v=637236006878978085">

@@ -1,6 +1,7 @@
 import React from "react";
+import "../index.css";
 import styled from "styled-components";
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import {
   TituloGrande,
   TituloMedio,
@@ -15,10 +16,16 @@ import {
   Espacio,
   LetraGrande,
   TituloLeft,
+  BordeCentro,
+  ImagenMedia,
 } from "../components/CardCodigo";
 import { LetraAlmuerzo } from "../paginasInicio/Almuerzo";
 import cruz from "../img/cruz.webp";
 import sigueme from "../img/sigueme.jpg";
+import { LogoRotando } from "../paginasContacto/Lideres";
+import logoiglesia from "../img/logos/logo.png";
+import pentagrama from "../img/logos/pentagramaNotas.webp";
+import claveSol from "../img/logos/claveSol.png";
 
 const Boletin = () => {
   return (
@@ -30,20 +37,21 @@ const Boletin = () => {
         <ColorWhite>Orden Plataforma</ColorWhite>
       </TituloChico>
 
+      <Espacio />
+      <LogoRotando>
+        <img src={logoiglesia} className="App-logo" alt="logo iglesia" />
+      </LogoRotando>
+
       <TarjetaBlanca>
-        <Espacio />
         <TituloGrande>Culto de Adoración</TituloGrande>
         <Espacio />
         <TituloChico>
-          <ColorRed>Sábado 18 de Junio 2022</ColorRed>
+          <ColorRed>Sábado 25 de Junio 2022</ColorRed>
         </TituloChico>
         <Espacio />
         <LetraTexto>
-          "SI Jehová no edificare la casa, En vano trabajan los que la edifican:
-          Si Jehová no guardare la ciudad, En vano vela la guarda". Salmos 127:1{" "}
-          <br />
-          "Porque esperaba ciudad con fundamentos, el artífice y hacedor de la
-          cual es Dios." Hebreos 11:10.
+          "Cuando estas cosas empiecen a suceder, cobrad ánimo y levantad
+          vuestras cabezas, porque vuestra redención está cerca". Lucas 21:28
         </LetraTexto>
         <Espacio />
         <ImagenSombra>
@@ -55,34 +63,33 @@ const Boletin = () => {
         <LetraBoletin>
           --- Preparándonos para adorar al Creador <br />
           --- Grupo de Alabanzas: (10:45 AM) <br />
-          {/* --- Entrada Plataforma: (11:00 AM) <br /> */}
+          --- Entrada Plataforma: (11:00 AM) <br />
           --- Doxología: Congregación adora al Creador <br />
-          1 - Invocación: <br />
+          1 - Invocación: Pr. Reynaldo Ojeda Jr. <br />
         </LetraBoletin>
         <Espacio />
         <TituloLeft>Segundo Segmento</TituloLeft>
         <Espacio />
         <LetraBoletin>
           --- Adorando a través de la confraternidad <br />
-          2 - Bienvenida: Norma Manchón <br />
-          {/* --- Adorando a través de la alabanza <br /> */}
-          {/* 3 - Anuncia himno: Iris Camacho */}
-          <br />
-          {/* --- Himno: # 385 "Los que aman al Señor" <br /> */}
+          2 - Bienvenida: Luisa Fernanda Padilla <br />
+          --- Adorando a través de la alabanza <br />
+          3 - Anuncia himno: Martha Cecilia Lewis <br />
+          --- Himno: # 172 "El Rey que viene" <br />
         </LetraBoletin>
-        {/* <Espacio />
+        <Espacio />
         <BordeCentro>
-          <ConexionWeb href="http://www.iglesiadeolivos.com.ar/-/doc/himnario/477.html">
-            Los que aman al Señor! (477)
+          <ConexionWeb href="http://www.iglesiadeolivos.com.ar/-/doc/himnario/168.html">
+            Letra -- El Rey que viene! (168)
           </ConexionWeb>
-        </BordeCentro> */}
-        {/* <Espacio /> */}
+        </BordeCentro>
+        <Espacio />
         <LetraBoletin>
           --- Adorando a través de la Palabra <br />
-          --- Texto bíblico: Salmos 127:1, Heb. 11:10 <br />
-          4 - Lectura bíblica: Dionis Leyva <br />
+          --- Texto bíblico: Lucas 21:28 <br />
+          4 - Lectura bíblica: Lázara Prieto <br />
           --- Postrados adoramos al Creador <br />
-          5 - Conduce Adoración: Bárbara Pérez <br />
+          5 - Conduce Adoración: Fernando Avila <br />
           --- Respuesta: Congregación y piano <br />
         </LetraBoletin>
         <Espacio />
@@ -91,68 +98,67 @@ const Boletin = () => {
         <LetraBoletin>
           --- Adorando a través de las Ofrendas <br />
           --- Reconocemos la soberanía de Dios <br />
-          6 - Dirige ofrendas: Eduardito Castillo <br />
+          6 - Dirige ofrendas: Daniel Valdivia <br />
           --- Congregación canta alabanzas <br />
           --- Diaconado recibe las ofrendas <br />
           --- Bendición sobre diezmos y ofrendas <br />
-          7 - Oración: Eduardito Castillo <br />
+          7 - Oración: Daniel Valdivia <br />
         </LetraBoletin>
-        {/* <Espacio />
+        <Espacio />
         <BordeCentro>
           <Link to="/ofrendas">Explicación Ofrendas</Link>
         </BordeCentro>
-        <Espacio /> */}
+        <Espacio />
         <LetraBoletin>
-          {/* 8 - Aliah y Kelin comunican - anuncios <br /> */}
+          8 - Aliah y Kelin comunican - anuncios <br />
         </LetraBoletin>
-        {/* <Espacio />
+        <Espacio />
         <TituloLeft>Segmento Pastoral</TituloLeft>
         <Espacio />
         <LetraBoletin>
-          --- Presentación de niños <br />
+          {/* --- Presentación de niños <br /> */}
           --- Recibiendo nuevos miembros <br />
-          --- Oración intercesora por enfermos <br />
-          --- Anuncios extraordinarios <br />
-          --- Presentación del predicador <br />
-        </LetraBoletin> */}
+          {/* --- Oración intercesora por enfermos <br /> */}
+          {/* --- Anuncios extraordinarios <br /> */}
+          {/* --- Presentación del predicador <br /> */}
+        </LetraBoletin>
         <Espacio />
         <TituloLeft>Cuarto Segmento</TituloLeft>
         <Espacio />
         <LetraBoletin>
-          {/* --- Adoración a través de la Palabra <br />
-          9 - Selección musical: Florencio Campos <br />
+          --- Adoración a través de la Palabra <br />
+          9 - Selección musical: <br />
           --- Título: Alabanza a Dios <br />
-          10 - Sermón: Alexander Beltré <br />
-          --- Sermón Título: "Regresamos a la Senda Antigua" <br />
+          10 - Sermón: Pr. Reynaldo Ojeda Jr. <br />
+          --- Sermón Título: "Levantad Vuestras Cabezas" <br />
           --- Entregando nuestras vidas a Dios <br />
-          11 - Himno: # 173 "Vendrá el Señor" <br /> */}
+          11 - Himno: # 174 "Siervos de Dios, la trompeta tocad" <br />
         </LetraBoletin>
         <Espacio />
-        {/* <BordeCentro>
-          <ConexionWeb href="http://www.iglesiadeolivos.com.ar/-/doc/himnario/165.html">
-            Vendrá el Señor (165)
+        <BordeCentro>
+          <ConexionWeb href="http://www.iglesiadeolivos.com.ar/-/doc/himnario/166.html">
+            Letra -- Siervos de Dios, la trompeta tocad (166)
           </ConexionWeb>
-        </BordeCentro> */}
+        </BordeCentro>
         <Espacio />
         <LetraBoletin>
-          --- Dinámica: Aidelyn Brage <br />
-          --- Programa Especial para los Padres <br />
-          --- Título: Construyendo para la Eternidad <br />
-          {/* 12 - Oración: Alexander Beltré <br /> <br /> */}
+          12 - Oración: Pr. Reynaldo Ojeda Jr. <br /> <br />
         </LetraBoletin>
         <Espacio />
-        <LetraGrande>Bendición de Dios para su Iglesia</LetraGrande>
-        <LetraTexto>
-          "Jehová te bendiga, y te guarde; Jehová haga resplandecer su rostro
-          sobre ti, y tenga de ti misericordia; Jehová alce sobre ti su rostro,
-          y ponga en ti paz". Números 6:24-26
-          <Espacio />
-          Así sea
-        </LetraTexto>
+        <BordeCentro>
+          <LetraGrande>Bendición de Dios para su Iglesia</LetraGrande>
+          <LetraTexto>
+            "Jehová te bendiga, y te guarde; Jehová haga resplandecer su rostro
+            sobre ti, y tenga de ti misericordia; Jehová alce sobre ti su
+            rostro, y ponga en ti paz". Números 6:24-26
+            <Espacio />
+            Amén, así sea
+          </LetraTexto>
+        </BordeCentro>
         <Espacio />
         <LetraBoletin>
-          <Espacio>--- Salida Organizada Diaconado</Espacio>
-          <LetraGrande>"Un sábado de gozo para todos".</LetraGrande>
+          <Espacio>--- Salida organizada por el diaconado</Espacio>
+          <LetraGrande>"Un feliz sábado para todos"</LetraGrande>
           <Espacio />
         </LetraBoletin>
       </TarjetaBlanca>
@@ -162,13 +168,35 @@ const Boletin = () => {
           <ColorRed>Himnario Disponible</ColorRed>
         </TituloChico>
         <Espacio />
+        <Espacio />
         <BlancoSombraCorto>
           <ConexionWeb href="http://www.iglesiadeolivos.com.ar/himnario_adventista.html">
             Himnario Online
           </ConexionWeb>
         </BlancoSombraCorto>
-
         <Espacio />
+        <Espacio />
+        <Espacio />
+        <div className="claveBox">
+          <img
+            src={claveSol}
+            className="clave App-logo"
+            alt="imagen clave de sol"
+          />
+          <img
+            src={claveSol}
+            className="clave App-logo"
+            alt="imagen clave de sol"
+          />
+          <img
+            src={claveSol}
+            className="clave App-logo"
+            alt="imagen clave de sol"
+          />
+        </div>
+        <ImagenMedia>
+          <img src={pentagrama} alt="imagen pentagrama" />
+        </ImagenMedia>
       </TarjetaBlanca>
 
       <TarjetaBlanca>
@@ -194,13 +222,12 @@ const Boletin = () => {
       <TarjetaBlanca>
         <TituloMedio>¿Qué es la Iglesia?</TituloMedio>
         <LetraGrande>
-          Esa imagen de arriba representa lo que hacía Jesús, quien se reunía lo
-          mismo al aire libre, llanura, ladera de una montaña, en la sinagoga,
-          en los atrios del templo. En cualquier momento ó lugar donde él
-          pudiera alcanzar a un ser humano, él estaba allí. Incluyendo fiestas,
-          bodas, celebraciones nacionales y familiares. Comía con los pecadores.
-          Les hablaba y bendecía donde quiera los encontraba, campo, ciudad,
-          camino.
+          Esa imagen de arriba representa lo que hacía Jesús, quien se reunía al
+          aire libre, llanuras, ladera de una montaña, en la sinagoga, en los
+          atrios del templo. En cualquier momento ó lugar donde él pudiera
+          alcanzar a un ser humano, él estaba allí. Incluyendo fiestas, bodas,
+          celebraciones nacionales y familiares. Comía con los pecadores. Les
+          hablaba y bendecía donde quiera los encontraba, campo, ciudad, camino.
         </LetraGrande>
         <LetraAlmuerzo>
           La iglesia es más que un edificio, más que una denominación, y mucho
@@ -211,7 +238,7 @@ const Boletin = () => {
           le escuchan, le siguen, le aman.
           <Espacio />
           Eso incluye también a muchos que simplemente están intentando
-          conocerle, y a otros que ni siguiera están interesados en el.
+          conocerle, y a otros que ni siguiera están en su redil.
           <Espacio />
           La iglesia no está definida por una cultura, una época, una
           preferencia social, un gusto personal o apreciación individual.
@@ -558,4 +585,5 @@ export const LetraTexto = styled.p`
     font-size: 25px;
   }
 `;
+
 export default Boletin;
