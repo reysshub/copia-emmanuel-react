@@ -10,6 +10,7 @@ import {
   LetraChica,
   Espacio,
   BordeCentro,
+  Linea,
   // CajaBotones,
   // BlancoSombraCorto,
   // ConexionWeb,
@@ -36,6 +37,7 @@ const Registrate = () => {
     <>
       <TituloMedio>
         <ColorWhite>Registrate Ahora</ColorWhite>
+        <ColorWhite>Fotos debajo</ColorWhite>
       </TituloMedio>
 
       <TarjetaBlanca>
@@ -84,9 +86,17 @@ const Registrate = () => {
           Fecha límite para registro y pago: <br />
           Fecha Julio 16/2022 <br />
           <Espacio />
-          Costo Habitación Hotel <br />$ 300.00 (Incluye las 2 noches sin
-          importar la cantidad de ocupantes Incluye también varias "CAMOAS" que
-          vamos a rentar para todos y el pago del salón de reunión).
+          Costo Habitación Hotel
+          <Espacio />
+          Costo hotel es actualmente: $288.00 (2 noches)
+          <Espacio />
+          Espamos pidiendo $ 310.00 (Incluye las 2 noches sin importar la
+          cantidad de ocupantes. <br />
+          Incluye también varias "CANOAS" que vamos a rentar para el disfrute de
+          todos en el río, también incluye el pago del salón de reunión). <br />
+          Incluye una merienda para el sábado por la noche. <br />
+          Si alguien quiere cooperar con algo extra, será bien recibido, porque
+          realmente no alcanza para todo eso.
           {/* <Espacio />
           Pago adicional por persona para <br />
           "Gastos extras del evento" <br />
@@ -107,6 +117,9 @@ const Registrate = () => {
           Entrégalo a Dorys Ojeda ó al Tesorero
           <Espacio />
           El hotel tiene solamente 20 habitaciones <br />
+          Recordamos que en cada habitación hay cama para 8 personas. Y algún
+          espacio extra para alguna colchoneta.
+          <Espacio />
           Quien se demore tiene la opción de reservar otro tipo de hospedaje que
           se llama Chalet.
           <Espacio />
@@ -131,7 +144,9 @@ const Registrate = () => {
           <Espacio />
           La comida será responsabilidad de cada cual. (Si al menos 50 personas
           quieren reservar en el comedor de Camp Kulaqua, ellos harán comida
-          para ese grupo. Dorys tiene detalles).
+          para ese grupo. <br /> Dorys tiene detalles).
+          <Espacio />
+          <Linea />
           <Espacio />
           El parque de agua estará abierto el domingo <br />
           El costo de entrada por persona es de $16.00

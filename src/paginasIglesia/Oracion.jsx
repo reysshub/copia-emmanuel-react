@@ -10,10 +10,14 @@ import {
   BordeCentro,
   ImagenMedia,
   FotoLogo,
+  BlancoSombra,
+  ImagenLogo2,
+  LetraChica,
 } from "../components/CardCodigo";
 import { LetraAlmuerzo } from "../paginasInicio/Almuerzo";
 import { LetraTexto } from "../paginasInicio/Boletin";
 import { CajaCumpleanos, DosColumnasLeft } from "./Miembros";
+import zoomlogo from "../img/logos/zoomlogo.jpg";
 import jesusorando from "../img/jesuorando.jpg";
 import manosorando from "../img/manosorando.webp";
 
@@ -29,7 +33,7 @@ const Oracion = () => {
 
       <TarjetaBlanca>
         <Espacio />
-        <TituloGrande>Dos Reuniones de Oración</TituloGrande>
+        <TituloGrande>Dos Reuniones Semanales de Oración</TituloGrande>
         <Espacio />
         <LetraTexto>
           Sábados en el Templo
@@ -44,6 +48,17 @@ const Oracion = () => {
         <FotoLogo>
           <img src={manosorando} alt="imagen manos orando" />
         </FotoLogo>
+        <Espacio />
+        <Espacio />
+        <BlancoSombra>
+          <ImagenLogo2>
+            <img src={zoomlogo} alt="zoomlogo" />
+          </ImagenLogo2>
+          <LetraChica>
+            Entra a Zoom: únete / join <br />
+            Código: 278-213-7957 <br />
+          </LetraChica>
+        </BlancoSombra>
         <Espacio />
       </TarjetaBlanca>
 

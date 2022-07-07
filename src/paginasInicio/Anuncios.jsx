@@ -65,6 +65,10 @@ const Anuncios = () => {
             </BordeCentro>
             <Espacio />
           </LetraGrande>
+          <LetraGrande>
+            Como pueden ver, faltan 4 semanas <br />
+            Pero solamente 3 sábados por el medio
+          </LetraGrande>
         </BordeCentro>
         <Espacio />
       </TarjetaBlanca>

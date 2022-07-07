@@ -11,6 +11,7 @@ import {
   FotoLogo,
   BordeCentro,
   ConexionWeb,
+  Linea,
 } from "../components/CardCodigo";
 import { LetraAlmuerzo } from "../paginasInicio/Almuerzo";
 import logominfantil from "../img/logos/logominfantil.png";
@@ -149,11 +150,17 @@ const Infantil = () => {
           necesidades de cada lugar en un momento dado y de la visión de los
           líderes.
           <Espacio />
-          El Sábado 25 de junio 2022 tendremos en la iglesia Sheeler Oaks en
+          <Linea />
+          <Espacio />
+          El Sábado 25 de junio 2022 tuvimos en la iglesia Sheeler Oaks en
           Apopka (Orlando) un seminario para maestros y directores del
-          Ministerio Infantil que se repetirá sistemáticamente cada tres meses.
-          Lo ofrecerán líderes de nuestros ministerios hispanos. La hora será
-          4:00 pm - 7:00 pm.
+          Ministerio Infantil.
+          <Espacio />
+          Este tipo de seminario se repetirá sistemáticamente cada tres meses.
+          Lo ofrecerán líderes de nuestros ministerios hispanos.
+          <Espacio />
+          Manténgase atento para aprovechar cada oportunidad de aprender y
+          crecer.
         </LetraGrande>
         <Espacio />
       </TarjetaBlanca>
@@ -198,12 +205,29 @@ const Infantil = () => {
             responder por cualquier cosa que suceda con ellos. <br />
             <Espacio />
             No hagas con ellos ningún tipo de juego que pueda ser peligroso como
-            levantárlos del suelo y hacer piruetas con ellos. <br />
+            levantárlos del suelo y hacer piruetas con ellos en el aire. Ya ha
+            habido accidentes en el pasado. Cuidemos a nuestros niños.
+            <br />
             <Espacio />
             <TituloMedio>
               Cuidémonos todos unos a otros y cada cual a sí mismo
             </TituloMedio>
           </LetraAlmuerzo>
+          <BordeCentro>
+            <TituloChico>
+              Haga el background check <br />
+              Se hace cada 2 años
+            </TituloChico>
+            <Espacio />
+            <BordeCentro>
+              <LetraGrande>Registración de Voluntarios</LetraGrande>
+              <ConexionWeb href="https://www.ncsrisk.org/adventist/registration/espaniol.cfm?theme=0">
+                Link para hacer el background check
+              </ConexionWeb>
+              <Espacio />
+            </BordeCentro>
+          </BordeCentro>
+          <Espacio />
         </BordeCentro>
         <Espacio />
       </TarjetaBlanca>

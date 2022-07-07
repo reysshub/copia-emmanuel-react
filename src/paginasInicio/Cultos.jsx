@@ -18,7 +18,9 @@ import {
   BordeCentro,
   CajaBotones,
   ConexionWeb,
+  Linea,
 } from "../components/CardCodigo";
+import { LetraAlmuerzo } from "./Almuerzo";
 import bienvenido from "../img/bienvenido.jpg";
 import semanales from "../img/semanales.png";
 import minjuvenil from "../img/minjuvenil.png";
@@ -67,8 +69,22 @@ const Cultos = () => {
 
       <TarjetaBlanca>
         <TituloGrande>Iglesia en Estudio</TituloGrande>
-        <LetraGrande>Sábados 9:45 am - 10:45 am</LetraGrande>
-        <TituloChico>Aprende de la Biblia</TituloChico>
+        <LetraGrande>
+          Sábados 9:45 am - 10:45 am <br />
+          Aprende de la Biblia
+        </LetraGrande>
+        <LetraAlmuerzo>
+          <LetraGrande>
+            <b>Orden y tiempo del programa</b>
+          </LetraGrande>
+          9:45 am - 10:00 am -- Servicio de Cantos <br />
+          10:00 am - 10:10 am -- Programa Introductorio <br />
+          <b>10:10 am - 10:40 am -- Estudio de la Lección</b> <br />
+          10:40 am - 10:45 am -- Ofrendas y Cierre <br />
+          <Linea />
+          10:45 am - 11:00 am -- Alabanzas Adoración <br />
+          11:00 am - Entrada Plataforma Adoración
+        </LetraAlmuerzo>
         <Espacio />
         <ImagenSombra>
           <img src={leccionactual} alt="leccionactual" />
@@ -157,7 +173,7 @@ const Cultos = () => {
 
       <TarjetaBlanca>
         <TituloGrande>Iglesia en Adoración</TituloGrande>
-        <LetraGrande>Sábados 10:50 am - 12:30 pm</LetraGrande>
+        <LetraGrande>Sábados 10:45 am - 12:30 pm</LetraGrande>
         <TituloChico>Adorando al Creador</TituloChico>
         <ImagenGrande>
           <img src={faceaidelyn} alt="faceaidelyn" />
