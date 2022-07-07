@@ -18,6 +18,7 @@ import Infantil from "../paginasMision/Infantil";
 import Jovenes from "../paginasMision/Jovenes";
 import Sabatica from "../paginasMision/Sabatica";
 import Preguntas from "../paginasMision/Preguntas";
+import IglesiaEs from "../paginasMision/IglesiaEs";
 // Varios
 import Diaconos from "../paginasVarios/Diaconos";
 import CitasErroneas from "../paginasVarios/CitasErroneas";
@@ -46,6 +47,7 @@ const Rutas = () => {
         <Route path="/jovenes" element={<Jovenes />} />
         <Route path="/sabatica" element={<Sabatica />} />
         <Route path="/preguntas" element={<Preguntas />} />
+        <Route path="/iglesiaes" element={<IglesiaEs />} />
 
         <Route path="/diaconos" element={<Diaconos />} />
         <Route path="/citaserroneas" element={<CitasErroneas />} />

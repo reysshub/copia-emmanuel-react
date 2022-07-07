@@ -90,6 +90,7 @@ import graduada from "../img/Eventos/graduado.jpg";
 import graduado from "../img/Eventos/graduada.jpg";
 import diadelpadre from "../img/Eventos/padres1.jpg";
 import diapadre from "../img/Eventos/padres2.jpg";
+import fernando from "../img/Eventos/fernando.png";
 
 const Sucedio = () => {
   return (
@@ -98,6 +99,25 @@ const Sucedio = () => {
         <ImagenMedia>
           <img src={sucedio} alt="sucedio movido" />
         </ImagenMedia>
+      </TarjetaBlanca>
+
+      <TarjetaBlanca>
+        <TituloGrande>Recibimos Miembros</TituloGrande>
+        <LetraGrande>
+          Sábado 25 de Junio 2022
+          <Espacio />
+          Bienvenido <br />
+          Fernando Avila
+        </LetraGrande>
+
+        <ImagenGrande>
+          <img src={fernando} alt="imagen fernando" />
+        </ImagenGrande>
+        <LetraGrande>
+          Fernando viene de Cuba, es hijo de nuestra hermana Lázara Prieto, es
+          médico y pide oración por sus dos hijos que quedaron en Cuba.
+        </LetraGrande>
+        <Espacio />
       </TarjetaBlanca>
 
       <TarjetaBlanca>

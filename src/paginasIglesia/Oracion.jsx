@@ -9,6 +9,7 @@ import {
   ImagenSombra,
   BordeCentro,
   ImagenMedia,
+  FotoLogo,
 } from "../components/CardCodigo";
 import { LetraAlmuerzo } from "../paginasInicio/Almuerzo";
 import { LetraTexto } from "../paginasInicio/Boletin";
@@ -25,6 +26,26 @@ const Oracion = () => {
       <TituloChico>
         <ColorWhite>Lista de Necesidades</ColorWhite>
       </TituloChico>
+
+      <TarjetaBlanca>
+        <Espacio />
+        <TituloGrande>Dos Reuniones de Oración</TituloGrande>
+        <Espacio />
+        <LetraTexto>
+          Sábados en el Templo
+          <Espacio />
+          Horario Sábados 9:15 am -- 9:40 am
+          <Espacio />
+          Miércoles por Zoom
+          <Espacio />
+          Horario Miércoles: 8:00 pm -- 9:00 pm
+        </LetraTexto>
+        <Espacio />
+        <FotoLogo>
+          <img src={manosorando} alt="imagen manos orando" />
+        </FotoLogo>
+        <Espacio />
+      </TarjetaBlanca>
 
       <TarjetaBlanca>
         <Espacio />

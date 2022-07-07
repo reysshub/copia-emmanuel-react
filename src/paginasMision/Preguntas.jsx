@@ -69,7 +69,7 @@ const Preguntas = () => {
           5. Aun así, aquellas preguntas se convirtieron en un canal de
           bendición, porque todos tuvieron la oportunidad de confrontar la
           verdad con la falsedad, y - dependiendo de las intenciones de cada
-          cual - , aprendieron lecciones, provenientes de los labios de Jesús.
+          cual - aprendieron lecciones, provenientes de los labios de Jesús.
           <Espacio />
           <Linea />
           <Espacio />

@@ -8,7 +8,6 @@ import {
   ImagenMedia,
   TituloGrande,
   TituloMedio,
-  TituloChico,
   LetraGrande,
   Espacio,
   BordeCentro,
@@ -18,13 +17,15 @@ import {
 } from "../components/CardCodigo";
 import anuncios from "../img/anuncios.png";
 import profesionales from "../img/Eventos/profesionales3.webp";
-import imagenDeportes from "../img/Eventos/imagenDeportes.jpg";
 import eventoJuvenil from "../img/Eventos/celebracionjuvenil.webp";
 import camporeeUnion from "../img/Eventos/camporeeUnion.png";
 import aliahbeltre from "../img/familia/aliahbeltre.png";
 import kelinleyva from "../img/familia/kelinleyva.png";
-import logominfantil from "../img/logos/logominfantil.png";
+import cena from "../img/Eventos/cenaSenor.jpg";
+import mujer from "../img/Eventos/ministerioMujer.jpg";
 import logoVBS from "../img/logos/logoVBS.png";
+import manosorando from "../img/manosorando.webp";
+import campHotel from "../img/campKulaqua/campHotel.png";
 
 const Anuncios = () => {
   return (
@@ -41,12 +42,110 @@ const Anuncios = () => {
       </TarjetaBlanca>
 
       <TarjetaBlanca>
+        <TituloGrande>Viaje a Camp Kulaqua</TituloGrande>
+        <LetraGrande>
+          Mini Retiro Espiritual Emmanuel
+          <br />
+          Agosto 5 al 7 Viernes a Domingo
+        </LetraGrande>
+        <LetraGrande>Haz tu reservación urgente</LetraGrande>
+        <ImagenMedia>
+          <img src={campHotel} alt="imagen manos orando" />
+        </ImagenMedia>
+        <BordeCentro>
+          <LetraGrande>
+            Organizadora: Dorys Ojeda (407)310-5261 <br />
+            El hotel tiene 20 habitaciones Si quieres más información dirígete a
+            la página Reservación que está bajo el Tab: Contacto
+            <Espacio />
+            <BordeCentro>
+              Ir a la página Contacto / Regístrate
+              <br />
+              <Link to="/registrate">Página Regístrate</Link>
+            </BordeCentro>
+            <Espacio />
+          </LetraGrande>
+        </BordeCentro>
+        <Espacio />
+      </TarjetaBlanca>
+
+      <TarjetaBlanca>
+        <TituloGrande>Reunión de Oración Sabática</TituloGrande>
+        <LetraGrande>Comenzando 9 de Julio 2022</LetraGrande>
+        <LetraGrande>Hora: 9:15 - 9:40 am</LetraGrande>
+        <FotoLogo>
+          <img src={manosorando} alt="imagen manos orando" />
+        </FotoLogo>
+        <BordeCentro>
+          <LetraGrande>
+            Dirigida por el Pastor Mariano González junto con nuestra hermana
+            Irma Durán. <br />
+            Media hora de reflexión y oraciones por las necesidades espirituales
+            personales, por los hijos, jóvenes de la iglesia, nuestros niños y
+            por todas las necesidades.
+          </LetraGrande>
+        </BordeCentro>
+        <Espacio />
+      </TarjetaBlanca>
+
+      <TarjetaBlanca>
+        <TituloGrande>Ministerio de la Mujer</TituloGrande>
+        <LetraGrande>Sábado 9 de Julio 2022</LetraGrande>
+        <LetraGrande>Culto de Adoración</LetraGrande>
+        <FotoLogo>
+          <img src={mujer} alt="imagen ministerio mujer" />
+        </FotoLogo>
+        <BordeCentro>
+          <LetraGrande>
+            Sábado 9 en la tarde, tendremos un "Te" en el comedor para todas las
+            damas (mujeres y niñas). Invite a damas no adventistas porque tiene
+            un propósito de edificar y ayudar en diferentes necesidades.
+          </LetraGrande>
+        </BordeCentro>
+        <Espacio />
+      </TarjetaBlanca>
+
+      <TarjetaBlanca>
+        <TituloGrande>La Cena del Señor</TituloGrande>
+        <LetraGrande>Sábado 16 de Julio 2022</LetraGrande>
+        <LetraGrande>Todos Invitados</LetraGrande>
+        <FotoLogo>
+          <img src={cena} alt="imagen cena" />
+        </FotoLogo>
+        <BordeCentro>
+          <LetraGrande>
+            "Porque todas las veces que comiereis este pan, y bebiereis esta
+            copa, la muerte del Señor anunciáis hasta que venga". 1 Corintios
+            11:26
+          </LetraGrande>
+        </BordeCentro>
+        <Espacio />
+      </TarjetaBlanca>
+
+      <TarjetaBlanca>
+        <TituloGrande>Temas Actualidad Social</TituloGrande>
+        <LetraGrande>
+          Sección nueva en este boletín <br /> Promueve el estudio de temas de
+          importancia actual <br />
+          Temas que usted debería interesarse por entender
+          <Espacio />
+          Dedica un poco de tiempo a aprender
+        </LetraGrande>
+        <Espacio />
+        <BordeCentro>
+          Ir a la página Edúcate y bajar al final <br />
+          <Link to="/educate">Página Edúcate</Link>
+        </BordeCentro>
+        <Espacio />
+      </TarjetaBlanca>
+
+      <TarjetaBlanca>
         <TituloGrande>Página - Profesionales</TituloGrande>
         <LetraGrande>Conectándonos</LetraGrande>
         <Espacio />
-        <ImagenMedia>
+        <FotoLogo>
           <img src={profesionales} alt="imagen profesionales" />
-        </ImagenMedia>
+        </FotoLogo>
         <Espacio />
         <TituloMedio>Propósito</TituloMedio>
         <LetraGrande>
@@ -66,55 +165,6 @@ const Anuncios = () => {
       </TarjetaBlanca>
 
       <TarjetaBlanca>
-        <TituloGrande>Seminario Min. Infantil</TituloGrande>
-        <LetraGrande>
-          Sábado 25 de Junio /2022 <br />
-          Hora: 4:00 pm a 7:00pm <br />
-        </LetraGrande>
-        <TituloMedio>Lugar</TituloMedio>
-        <TituloChico>
-          Iglesia de Sheeler Oaks en Apopka <br />
-          Dirección: 1822 Sheeler AVe, Apopka, FL 32703 <br />
-          Ministerios Hispanos rentarán un VAN para ir y regresar desde la
-          iglesia Emmanuel Tampa
-        </TituloChico>
-        <LetraGrande>
-          Auspiciado por los Ministerios Hispanos <br />
-          <Espacio />
-          Invitados directores, maestros, aspirantes. <br />
-          Necesitamos capacitar a la mayor cantidad de personas para trabajar en
-          favor de nuestros niños.
-          <Espacio />
-        </LetraGrande>
-        <FotoLogo>
-          <img src={logominfantil} alt="logo min infantil" />
-        </FotoLogo>
-        <LetraGrande>
-          Por favor, déjale saber a Dorys si vas a asistir. <br />
-          Gracias. Dorys Ojeda: (407) 310-5261
-        </LetraGrande>
-        <Espacio />
-      </TarjetaBlanca>
-
-      <TarjetaBlanca>
-        <TituloGrande>Ministerios Hispanos</TituloGrande>
-        <LetraGrande>Julio 4 / 2022</LetraGrande>
-        <TituloMedio>Evento de Jóvenes</TituloMedio>
-        <LetraGrande>Espiritual-social-deportivo</LetraGrande>
-        <ImagenGrande>
-          <img src={imagenDeportes} alt="imagen deportes" />
-        </ImagenGrande>
-        <BordeCentro>
-          <TituloMedio>Coordinador Hispano</TituloMedio>
-          <LetraGrande>
-            Pastor: Hector García <br />
-            Cell (321) 202-6907
-          </LetraGrande>
-        </BordeCentro>
-        <Espacio />
-      </TarjetaBlanca>
-
-      <TarjetaBlanca>
         <TituloGrande>Vacation Bible School</TituloGrande>
         <TituloMedio>VBS Rocky Railway</TituloMedio>
         <LetraGrande>
@@ -128,9 +178,9 @@ const Anuncios = () => {
           Regístrate ya
         </LetraGrande>
 
-        <ImagenGrande>
+        <FotoLogo>
           <img src={logoVBS} alt="logo VBS" />
-        </ImagenGrande>
+        </FotoLogo>
         <LetraGrande>
           Será una semana Especial <br />
           Trae a tus niños para que a través de cantos, manualidades, juegos y
@@ -168,9 +218,9 @@ const Anuncios = () => {
           Southern Union Camporee! <br />
           Regístrate Ya
         </LetraGrande>
-        <ImagenGrande>
+        <FotoLogo>
           <img src={camporeeUnion} alt="camporee union" />
-        </ImagenGrande>
+        </FotoLogo>
 
         <BlancoSombraCorto>
           <ConexionWeb href="https://www.adventsource.org/events/southern-union-pathfinder-camporee-2022-631">

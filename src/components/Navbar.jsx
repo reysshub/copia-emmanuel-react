@@ -100,6 +100,12 @@ const Navbar = () => {
                 <Link to="/preguntas">Preguntas</Link>
               </SubLink>
             </SubMenuLi>
+
+            <SubMenuLi>
+              <SubLink>
+                <Link to="/iglesiaes">Iglesia Es</Link>
+              </SubLink>
+            </SubMenuLi>
           </SubMenu>
         </MenuLi>
         <MenuLi>
@@ -133,11 +139,11 @@ const Navbar = () => {
               </SubLink>
             </SubMenuLi>
 
-            {/* <SubMenuLi>
+            <SubMenuLi>
               <SubLink>
                 <Link to="/registrate">Registrate</Link>
               </SubLink>
-            </SubMenuLi> */}
+            </SubMenuLi>
 
             <SubMenuLi>
               <SubLink>

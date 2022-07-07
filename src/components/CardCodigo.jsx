@@ -96,8 +96,9 @@ export const LetraChica = styled.p`
 // IMAGENES CODIGOS
 export const ImagenSombra = styled.div`
   img {
-    box-shadow: 0 10px 10px 10px rgba(0, 0, 0, 0.19),
-      0 6px 6px rgba(0, 0, 0, 0.23);
+    /* box-shadow: 0 10px 10px 10px rgba(0, 0, 0, 0.19),
+      0 6px 6px rgba(0, 0, 0, 0.23); */
+    box-shadow: 0 3px 13px 1px rgb(0 0 0 / 16%);
     border-radius: 10px;
     margin-top: 10px;
     width: 100%;
@@ -180,8 +181,9 @@ export const FotoLogo = styled.div`
 
 // DIV BLANCO LARGO CON SOMBRA
 export const BlancoSombra = styled.div`
-  box-shadow: 0 10px 10px 10px rgba(0, 0, 0, 0.19),
-    0 6px 6px rgba(0, 0, 0, 0.23);
+  /* box-shadow: 0 10px 10px 10px rgba(0, 0, 0, 0.19),
+    0 6px 6px rgba(0, 0, 0, 0.23); */
+  box-shadow: 0 3px 13px 1px rgb(0 0 0 / 16%);
   border-radius: 10px;
   text-align: center;
   color: darkblue;
@@ -201,8 +203,9 @@ export const BlancoSombra = styled.div`
 `;
 // DIV BLANCO CORTO CON SOMBRA
 export const BlancoSombraCorto = styled.div`
-  box-shadow: 0 10px 10px 10px rgba(0, 0, 0, 0.19),
-    0 6px 6px rgba(0, 0, 0, 0.23);
+  /* box-shadow: 0 10px 10px 10px rgba(0, 0, 0, 0.19),
+    0 6px 6px rgba(0, 0, 0, 0.23); */
+  box-shadow: 0 3px 13px 1px rgb(0 0 0 / 16%);
   border-radius: 10px;
   text-align: center;
   color: darkblue;

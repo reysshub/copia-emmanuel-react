@@ -10,9 +10,9 @@ import {
   LetraChica,
   Espacio,
   BordeCentro,
-  CajaBotones,
-  BlancoSombraCorto,
-  ConexionWeb,
+  // CajaBotones,
+  // BlancoSombraCorto,
+  // ConexionWeb,
 } from "../components/CardCodigo";
 // import {BotonNuevo, ContenedorBotonCentrado, MensajeExito} from './../components/Formularios';
 // import FormularioCampKulaqua from '../components/FormularioCampKulaqua';
@@ -45,21 +45,23 @@ const Registrate = () => {
           Dirección: 23400 NW 212th Ave, High Springs, FL 32643 <br />
           Distancia desde la Iglesia Emmanuel: 154.2 millas <br />
           Tiempo de viaje: 2 horas 34 min. (usando I-75)
+          <Espacio />
         </Direccion>
       </TarjetaBlanca>
 
       <TarjetaBlanca>
         <TituloMedio>Regístración Camp Kulaqua</TituloMedio>
         <LetraGrande>
-          Se anunciará fecha <br />
+          Agosto 5 al 7 <br />
         </LetraGrande>
         <BordeCentro>
           <LetraChica>
             Reservación de habitación <br />
-            Registración de asistentes
+            Dorys Ojeda (407)310-5261
+            {/* Registración de asistentes */}
           </LetraChica>
         </BordeCentro>
-
+        <Espacio />
         {/* <Espacio />
             <ContenedorBotonCentrado>
             <BotonNuevo type="submit">Registrate</BotonNuevo>
@@ -80,17 +82,17 @@ const Registrate = () => {
         <Espacio />
         <LetraGrande>
           Fecha límite para registro y pago: <br />
-          Fecha 00/2022 <br />
+          Fecha Julio 16/2022 <br />
           <Espacio />
-          Costo Habitación Hotel <br />
-          $ 000.00 (Incluye las 2 noches) <br />
-          Sin importar la cantidad de ocupantes <br />
-          <Espacio />
+          Costo Habitación Hotel <br />$ 300.00 (Incluye las 2 noches sin
+          importar la cantidad de ocupantes Incluye también varias "CAMOAS" que
+          vamos a rentar para todos y el pago del salón de reunión).
+          {/* <Espacio />
           Pago adicional por persona para <br />
           "Gastos extras del evento" <br />
-          $ 15.00 - De 10 años hacia arriba <br />
+          $ 15.00 - De 10 años hacia arriba <br /> */}
           <Espacio />
-          <BordeCentro>
+          {/* <BordeCentro>
             Nota: Ese dinero es para cubrir: Gastos de presentadores invitados:
             viaje, hospedaje, comida y honorario. <br />
             <Espacio />
@@ -98,13 +100,17 @@ const Registrate = () => {
             en el social, y otros recursos necesarios para la actividad. <br />
             <Espacio />
             La iglesia va a asumir el balance faltante. <br />
-          </BordeCentro>
+          </BordeCentro> */}
           <Espacio />
           Opciones de pago <br />
           Se recibe cash ó cheque <br />
-          Entrégalo al tesorero ó a Dorys Ojeda <br />
+          Entrégalo a Dorys Ojeda ó al Tesorero
           <Espacio />
-          <BordeCentro>
+          El hotel tiene solamente 20 habitaciones <br />
+          Quien se demore tiene la opción de reservar otro tipo de hospedaje que
+          se llama Chalet.
+          <Espacio />
+          {/* <BordeCentro>
             Puedes usar "AdventistGiving" pero imprime <br />
             recibo y envíanos copia para confirmación. <br />
             De otra forma no nos enteramos <br />
@@ -118,10 +124,17 @@ const Registrate = () => {
             </CajaBotones>
             <Espacio />
             "Iglesia Local - Presupuesto de la Iglesia" <br />
-          </BordeCentro>
+          </BordeCentro> */}
           <Espacio />
           Responsable del Evento <br />
           Dorys Ojeda - Teléfono (407) 310-5261
+          <Espacio />
+          La comida será responsabilidad de cada cual. (Si al menos 50 personas
+          quieren reservar en el comedor de Camp Kulaqua, ellos harán comida
+          para ese grupo. Dorys tiene detalles).
+          <Espacio />
+          El parque de agua estará abierto el domingo <br />
+          El costo de entrada por persona es de $16.00
         </LetraGrande>
         <Espacio />
       </TarjetaBlanca>

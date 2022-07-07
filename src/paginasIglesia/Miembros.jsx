@@ -1,4 +1,3 @@
-import React from "react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
 
@@ -95,7 +94,7 @@ const Miembros = () => {
         <LetraGrande>Sábado 25 de Junio / 2022</LetraGrande>
         <CajaCumpleanos>
           <DosColumnas>
-            1. Fernando Avila <br />
+            {/* 1. Fernando Avila <br /> */}
             2. <br />
           </DosColumnas>
           <DosColumnas>
@@ -148,7 +147,7 @@ const Miembros = () => {
             12. Luís R Iglesias - Junio 21 <br />
             13. Olga Lajara - Junio 22 <br />
             14. Ediltrudis Sotelo -Junio 23 <br />
-            15. Amaury Viera - Junio 26 <br />
+            15. Maikel Ramírez - Junio 23 <br />
             16. Reynaldo Ojeda - Junio 27 <br />
             17. Jimmy González - Junio 28 <br />
             18. Rafael Reyes - Junio 28 <br />

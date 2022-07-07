@@ -1,6 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-// import { Link } from 'react-router-dom';
 import {
   TituloGrande,
   TituloMedio,
@@ -15,6 +14,7 @@ import {
   FotoLogo,
 } from "../components/CardCodigo";
 import { TarjetaColor, TituloBlanco } from "../paginasContacto/Profesiones";
+import { LetraAlmuerzo } from "../paginasInicio/Almuerzo";
 import heiden from "../img/familia/heiden2.png";
 import { LogoRotando } from "../paginasContacto/Lideres";
 import logoiglesia from "../img/logos/logo.png";
@@ -35,7 +35,7 @@ const Educate = () => {
       </LogoRotando>
 
       <TarjetaBlanca>
-        <TituloGrande>Lecciones "La Fe de Jesús</TituloGrande>
+        <TituloGrande>Lecciones "La Fe de Jesús"</TituloGrande>
         <LetraGrande>Carlos E. Aeschlimann H.</LetraGrande>
         <Espacio />
         <ColumnasBotones>
@@ -216,29 +216,180 @@ const Educate = () => {
         <LetraGrande>Expone Agustín Lage</LetraGrande>
         <Espacio />
         <BotonLargo>
-          <ConexionWeb href="https://www.youtube.com/watch?v=slPRDoRDLaQ">
+          <ConexionWeb href="https://www.youtube.com/watch?v=AKcAjH3XJ54">
             Presentada en Iglesia Miami
           </ConexionWeb>
         </BotonLargo>
         <Espacio />
+        <LetraGrande>
+          Youtube <br />
+          🧠Quien es Agustín Laje 🍸| Conferencia en Miami.
+        </LetraGrande>
         <Espacio />
         <BordeCentro>
           <LetraGrande>
-            Vivimos en un mundo cuya sociedad y sus valores van de mal para
-            peor. Como cristianos debieramos saber qué está sucediendo detrás
-            del telón de fondo y también debieramos tener opiniones con
-            fundamento, opiniones claras, precisas para ayudar a nuestros hijos,
-            a nuestros menores y jóvenes y a la familia en general. Dios permita
-            que su iglesia sea instruida y edificada en todo lo que es útil y
-            necesario. El Pastor.
+            Vivimos en un mundo cuyos valores van de mal para peor.
+            <Espacio />
+            Como cristianos debieramos saber qué está sucediendo detrás del
+            telón de fondo. Debieramos tener opiniones con fundamento, claras,
+            precisas para ayudar a nuestros hijos, menores y jóvenes; a la
+            familia en general.
+            <Espacio />
+            La Iglesia de Jesucristo debe ser instruida y edificada en todo lo
+            que es útil y necesario. El Pastor.
           </LetraGrande>
         </BordeCentro>
         <Espacio />
       </TarjetaBlanca>
 
       <TarjetaBlanca>
+        <TituloGrande>¿Debe un cristiano Votar?</TituloGrande>
+        <LetraGrande>Agustín Lage, Cesar Vidal y otros</LetraGrande>
+        <Espacio />
+        <BotonLargo>
+          <ConexionWeb href="https://www.youtube.com/watch?v=6rmM96BZt_o">
+            Argumentos de peso
+          </ConexionWeb>
+        </BotonLargo>
+        <Espacio />
+        <LetraGrande>
+          Youtube <br />
+          Entrevista a César Vidal, Agustín Laje y David Hormachea.
+        </LetraGrande>
+        <Espacio />
+        <BordeCentro>
+          <LetraGrande>
+            Querido hermano, infórmate, instrúyete. No seas de los que viven a
+            espaldas de la realidad en el mundo en que nos ha tocado vivir.
+            <Espacio />
+            El principio de separación Iglesia y Estado se aplica a la
+            organización, institución, pero no a la persona individual. Todos
+            somos políticos, lo mismo si hablamos que si callamos. No hay manera
+            de evitarlo. Por lo tanto es mejor hacer la parte que nos toca de
+            forma activa y consciente.
+            <Espacio />
+            Nuestra Misión es promover el Reino de Cristo. Pero también alejar
+            el reino del mal. Por eso, el activismo político, no lo promovemos
+            ni lo criticamos, pero sí debieramos votar en contra de los peores.
+            <Espacio />
+            El Pastor.
+          </LetraGrande>
+        </BordeCentro>
+        <Espacio />
+      </TarjetaBlanca>
+
+      <TarjetaBlanca>
+        <TituloGrande>Historia del Aborto</TituloGrande>
+        <LetraGrande>Expone Agustín Lage</LetraGrande>
+        <Espacio />
+        <BotonLargo>
+          <ConexionWeb href="https://www.youtube.com/watch?v=JinCIZqyUKU">
+            Conferencia sobre Aborto
+          </ConexionWeb>
+        </BotonLargo>
+        <Espacio />
+        <LetraGrande>
+          Youtube <br />
+          CONFERENCIA COMPLETA DE AGUSTIN LAJE en la Universidad Técnica
+          Particular de Loja, ECUADOR
+        </LetraGrande>
+        <Espacio />
+        <BordeCentro>
+          <LetraGrande>
+            Conoce el origen de la idea macabra del aborto y su historia desde
+            sus inicios hasta el día de hoy. Quiénes fueron los promotores y
+            cómo se convirtió en ley.
+          </LetraGrande>
+        </BordeCentro>
+        <Espacio />
+      </TarjetaBlanca>
+
+      <TarjetaBlanca>
+        <TituloGrande>Entrevista Directora Clínica</TituloGrande>
+        <LetraGrande>Pablo Muñoz - Therealmayra Rodríguez</LetraGrande>
+        <Espacio />
+        <BotonLargo>
+          <ConexionWeb href="https://www.youtube.com/watch?v=fDquKrarlXo&t=466s">
+            Clínicas Aborto
+          </ConexionWeb>
+        </BotonLargo>
+        <Espacio />
+        <LetraGrande>
+          Youtube <br />
+          Entrevista a ex directora de PLANNED PARENTHOOD
+        </LetraGrande>
+        <Espacio />
+        <BordeCentro>
+          <LetraGrande>
+            La realidad oscura detrás del negocio del aborto a nivel mundial.
+            Gente mala, sin escrúpulos, dirigidas por el infierno mismo.
+          </LetraGrande>
+        </BordeCentro>
+        <Espacio />
+      </TarjetaBlanca>
+
+      <TarjetaBlanca>
+        <TituloGrande>Investigadores Serios</TituloGrande>
+        <LetraGrande>Examinadlo todo, retened lo bueno</LetraGrande>
+        <Espacio />
+        <BotonLargo>
+          <ConexionWeb href="https://www.youtube.com/c/Agust%C3%ADnLajeArrigoni">
+            Agustín Lage Arrigoni
+          </ConexionWeb>
+        </BotonLargo>
+        <Espacio />
+        <Espacio />
+        <BotonLargo>
+          <ConexionWeb href="https://www.youtube.com/c/PabloMunozIturrieta">
+            Pablo Muñoz Iturrieta
+          </ConexionWeb>
+        </BotonLargo>
+        <Espacio />
+        <Espacio />
+        <BotonLargo>
+          <ConexionWeb href="https://www.youtube.com/c/MiklosLukacs">
+            Miklos Lukacs
+          </ConexionWeb>
+        </BotonLargo>
+        <Espacio />
+        <Espacio />
+        <BotonLargo>
+          <ConexionWeb href="https://www.youtube.com/c/C%C3%A9sarVidalOficial">
+            Cesar Vidal
+          </ConexionWeb>
+        </BotonLargo>
+        <Espacio />
+        <Espacio />
+        <BordeCentro>
+          <LetraAlmuerzo>
+            Busca temas relacionados con:
+            <Espacio />
+            1. Ideología de Género <br />
+            2. Feminismo <br />
+            3. Batalla cultural <br />
+            4. El aborto (derechos reproductivos) <br />
+            5. Tecnología y Eugenesia, transhumanismo <br />
+            6. Globalismo (Agenda 20-30) <br />
+            7. Ecologismo <br />
+            8. Especismo (Veganismo) <br />
+            9. Postmodernismo. <br />
+            10. Leguaje Inclusivo. <br />
+            11. Otros temas.
+            <Espacio />
+            Nota: Escuchar opiniones, no significa estar completamente de
+            acuerdo con todo lo que ellos dicen, pero te ayuda a tener elementos
+            de juicio para formar tus propias opiniones y adoptar posiciones
+            basadas en argumentos respetables.
+            <Espacio />
+            Despierta, escucha. El Pastor
+          </LetraAlmuerzo>
+        </BordeCentro>
+        <Espacio />
+      </TarjetaBlanca>
+
+      <TarjetaBlanca>
         <TituloGrande>Desarrolla tu Intelecto</TituloGrande>
-        <LetraGrande>Leyendo para Crecer</LetraGrande>
+        <LetraGrande>Leyendo para crecer, escuchando para aprender</LetraGrande>
         <Espacio />
         <FotoLogo>
           <img src={heiden} alt="foto heiden" />
@@ -263,8 +414,9 @@ export const ColumnasBotones = styled.div`
   gap: 11px;
 `;
 export const BotonLargo = styled.div`
-  box-shadow: 0 10px 10px 10px rgba(0, 0, 0, 0.19),
-    0 6px 6px rgba(0, 0, 0, 0.23);
+  /* box-shadow: 0 10px 10px 10px rgba(0, 0, 0, 0.19),
+    0 6px 6px rgba(0, 0, 0, 0.23); */
+  box-shadow: 0 3px 13px 1px rgb(0 0 0 / 16%);
   border-radius: 10px;
   text-align: center;
   color: darkblue;
