@@ -79,7 +79,7 @@ const Cultos = () => {
           </LetraGrande>
           9:45 am - 10:00 am -- Servicio de Cantos <br />
           10:00 am - 10:10 am -- Programa Introductorio <br />
-          <b>10:10 am - 10:40 am -- Estudio de la Lección</b> <br />
+          10:10 am - 10:40 am -- <b>Estudio de la Lección</b> <br />
           10:40 am - 10:45 am -- Ofrendas y Cierre <br />
           <Linea />
           10:45 am - 11:00 am -- Alabanzas Adoración <br />
